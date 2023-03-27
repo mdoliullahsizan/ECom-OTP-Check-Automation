@@ -1,0 +1,27 @@
+ecom_MyGp
+ecom_MyRobi
+ecom_TelegramNotification
+
+D:
+echo "Navigating to project folder"
+cd D:\IntelliJIDEA\ecom_otptest & mvn clean test
+timeout 50 > NUL
+
+
+To see attached devices,
+Go to Setting,
+
+shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings
+delete global hidden_api_policy'' exited with code 255'; Command output: Exception occurred while executing
+'delete': java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS at
+
+If this error shown Go to Setting, search for Permission Monitoring then Enable it.
+
+I think Appium sits on top of ADB for installing applications.
+In addition to disabling the “verify app over USB” setting in the developer options,
+also make sure to turn on the setting “Allow installation of apps from unknown sources” under “Security” in Settings.
+
+dcRb.setCapability("ignoreHiddenApiPolicyError", true);
+
+
+

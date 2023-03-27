@@ -1,0 +1,4 @@
+# Created at 2023-02-24T09:27:06.425
+Boot Manifest-JAR contains absolute paths in classpath 'D:\IntelliJIDEA\ecom_otptest\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

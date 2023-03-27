@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T09:27:07 GMT+06:00" name="All Test Suite" finished-at="2023-02-24T09:29:45 GMT+06:00" duration-ms="158027">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T09:27:07 GMT+06:00" name="MyGP" finished-at="2023-02-24T09:28:31 GMT+06:00" duration-ms="84497">
+      <class name="ecom_MyGp">
+        <test-method is-config="true" signature="setupGP()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:27:07 GMT+06:00" name="setupGP" finished-at="2023-02-24T09:27:21 GMT+06:00" duration-ms="13765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupGP -->
+        <test-method signature="ecomgp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:27:21 GMT+06:00" name="ecomgp" finished-at="2023-02-24T09:27:42 GMT+06:00" duration-ms="21790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecomgp -->
+        <test-method signature="clickContinuegp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:27:42 GMT+06:00" name="clickContinuegp" finished-at="2023-02-24T09:27:56 GMT+06:00" depends-on-methods="ecom_MyGp.ecomgp" duration-ms="13469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinuegp -->
+        <test-method signature="clickNagadgp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:27:56 GMT+06:00" name="clickNagadgp" finished-at="2023-02-24T09:27:58 GMT+06:00" depends-on-methods="ecom_MyGp.clickContinuegp" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNagadgp -->
+        <test-method signature="clickContinueNagadgp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:27:58 GMT+06:00" name="clickContinueNagadgp" finished-at="2023-02-24T09:28:01 GMT+06:00" depends-on-methods="ecom_MyGp.clickNagadgp" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinueNagadgp -->
+        <test-method signature="enterNumbergp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:28:01 GMT+06:00" name="enterNumbergp" finished-at="2023-02-24T09:28:16 GMT+06:00" depends-on-methods="ecom_MyGp.clickContinueNagadgp" duration-ms="15215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNumbergp -->
+        <test-method signature="clickProceedgp()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:28:16 GMT+06:00" name="clickProceedgp" finished-at="2023-02-24T09:28:20 GMT+06:00" depends-on-methods="ecom_MyGp.enterNumbergp" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedgp -->
+        <test-method signature="checkForOtpNotification()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:28:20 GMT+06:00" name="checkForOtpNotification" finished-at="2023-02-24T09:28:31 GMT+06:00" depends-on-methods="ecom_MyGp.clickProceedgp" duration-ms="11105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForOtpNotification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ecom_MyGp@506ae4d4]" started-at="2023-02-24T09:28:31 GMT+06:00" name="teardown" finished-at="2023-02-24T09:28:31 GMT+06:00" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ecom_MyGp -->
+    </test> <!-- MyGP -->
+    <test started-at="2023-02-24T09:28:31 GMT+06:00" name="MyRobi" finished-at="2023-02-24T09:29:45 GMT+06:00" duration-ms="73486">
+      <class name="ecom_MyRobi">
+        <test-method is-config="true" signature="setupRobi()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:28:31 GMT+06:00" name="setupRobi" finished-at="2023-02-24T09:28:45 GMT+06:00" duration-ms="13366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRobi -->
+        <test-method signature="ecomrobi()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:28:45 GMT+06:00" name="ecomrobi" finished-at="2023-02-24T09:28:50 GMT+06:00" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecomrobi -->
+        <test-method signature="clickRecharge()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:28:50 GMT+06:00" name="clickRecharge" finished-at="2023-02-24T09:28:58 GMT+06:00" depends-on-methods="ecom_MyRobi.ecomrobi" duration-ms="7835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRecharge -->
+        <test-method signature="makePaymentrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:28:58 GMT+06:00" name="makePaymentrb" finished-at="2023-02-24T09:29:00 GMT+06:00" depends-on-methods="ecom_MyRobi.clickRecharge" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePaymentrb -->
+        <test-method signature="selectNagadrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:00 GMT+06:00" name="selectNagadrb" finished-at="2023-02-24T09:29:03 GMT+06:00" depends-on-methods="ecom_MyRobi.makePaymentrb" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNagadrb -->
+        <test-method signature="clickRechargeButtonrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:03 GMT+06:00" name="clickRechargeButtonrb" finished-at="2023-02-24T09:29:05 GMT+06:00" depends-on-methods="ecom_MyRobi.selectNagadrb" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRechargeButtonrb -->
+        <test-method signature="clickPayNowrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:05 GMT+06:00" name="clickPayNowrb" finished-at="2023-02-24T09:29:16 GMT+06:00" depends-on-methods="ecom_MyRobi.clickRechargeButtonrb" duration-ms="11585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPayNowrb -->
+        <test-method signature="enterNumberrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:16 GMT+06:00" name="enterNumberrb" finished-at="2023-02-24T09:29:29 GMT+06:00" depends-on-methods="ecom_MyRobi.clickPayNowrb" duration-ms="12330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNumberrb -->
+        <test-method signature="clickProceedrb()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:29 GMT+06:00" name="clickProceedrb" finished-at="2023-02-24T09:29:33 GMT+06:00" depends-on-methods="ecom_MyRobi.enterNumberrb" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedrb -->
+        <test-method signature="checkForOtpNotification()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:33 GMT+06:00" name="checkForOtpNotification" finished-at="2023-02-24T09:29:44 GMT+06:00" depends-on-methods="ecom_MyRobi.clickProceedrb" duration-ms="11756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForOtpNotification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ecom_MyRobi@235ecd9f]" started-at="2023-02-24T09:29:44 GMT+06:00" name="teardown" finished-at="2023-02-24T09:29:45 GMT+06:00" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ecom_MyRobi -->
+    </test> <!-- MyRobi -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
